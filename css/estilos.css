@@ -1,0 +1,96 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.wrapper {
+  max-width: 1340px;
+  margin: auto;
+  border: 1px solid red;
+}
+.top {
+  display: flex;
+}
+
+.top-button {
+  height: 2.1%;
+  margin-left: 60%;
+  margin-top: 2%;
+}
+
+.top-button-right {
+  border: 1px solid #fd53c0;
+  color: #fd53c0;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background: white;
+  text-decoration: initial;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 15%;
+  min-height: 33vh;
+  height: 330px;
+}
+
+.hero-1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.hero-2 {
+  padding: 3% 30%;
+  color: #34525a;
+}
+.hero-button {
+  border: 1px solid;
+  border-radius: 28px;
+  padding: 15px 40px;
+  text-decoration: initial;
+  background: #fd53c0;
+  color: white;
+}
+
+.image-principal {
+  padding: 9.5%;
+}
+
+.community {
+  display: flex;
+  text-align: center;
+
+  margin: 10px 0;
+}
+
+.Community-image {
+  width: 50%;
+}
+
+.messages {
+  width: 50%;
+}
+
+.icon {
+  margin-right: 144px;
+}
+
+.messaages-p {
+}
+
+.seguidores-mensajes {
+  font-size: 70px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.grow {
+  border: 1px solid;
+  display: flex;
+  background-image: url(../images/bg-section-top-desktop-1.svg);
+}
+
+.flowing {
+  display: flex;
+}
+
+.users {
+  display: flex;
+}
