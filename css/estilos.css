@@ -145,11 +145,15 @@ body {
 }
 
 .footer {
-  /*background-image: url(../images/bg-footer-top-desktop.svg);*/
-  /*background-color: #01262f;*/
+  display: flex;
+  color: white;
+  background: #34525a;
 }
 
-.footer-img {
-  filter: ;
-  color: white;
+.footer-left {
+}
+.footer-text {
+}
+
+.footer-right {
 }
