@@ -151,9 +151,51 @@ body {
 }
 
 .footer-left {
+  padding-left: 100px;
 }
 .footer-text {
+  padding-left: 100px;
 }
 
 .footer-right {
+  padding-right: 270px;
+  padding-left: 270px;
+}
+.footer-p {
+  font-size: 40px;
+  font-weight: bold;
+}
+.footer-image {
+  padding-left: 50px;
+}
+.icon {
+  padding-left: 90px;
+}
+
+.fab {
+  display: inline-flex;
+  color: white;
+  border: 1px solid white;
+  width: 33px;
+  height: 33px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 13px;
+  margin-left: 0.8em;
+  margin-top: 10px;
+}
+
+.input {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+.button {
+  color: white;
+  background: #fd53c0;
+  padding: 10px 17px 10px 17px;
+  border: 1px solid #fd53c0;
+  border-radius: 5px;
 }
