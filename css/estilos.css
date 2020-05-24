@@ -28,8 +28,6 @@ body {
 .hero {
   text-align: center;
   margin-top: 15%;
-  min-height: 33vh;
-  height: 330px;
 }
 
 .hero-1 {
@@ -37,20 +35,26 @@ body {
   font-weight: bold;
 }
 .hero-2 {
-  padding: 3% 30%;
-  color: #34525a;
+  margin: auto;
+  max-width: 480px;
+  margin: auto auto 3em;
 }
 .hero-button {
-  border: 1px solid;
-  border-radius: 28px;
-  padding: 15px 40px;
+  border-radius: 35px;
+  padding: 20px 40px;
   text-decoration: initial;
   background: #fd53c0;
   color: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.image-principal {
-  padding: 9.5%;
+.imagen {
+  margin-top: 80px;
+}
+.image-principal img {
+  margin: auto;
+  display: block;
+  max-width: 950px;
 }
 
 .community {
