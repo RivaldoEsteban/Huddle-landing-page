@@ -307,7 +307,7 @@ body {
 @media screen and (max-width: 375px) {
   .wrapper {
     width: min-content;
-    border: 1px solid red;
+    
   }
   .top-button{
     margin-left: 50%;
@@ -490,8 +490,6 @@ body {
 }
 
 @media screen and (max-width: 320px) {
-  .wrapper {
-    width: min-content;
-  }
+ 
   .
 }
