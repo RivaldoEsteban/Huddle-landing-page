@@ -307,132 +307,128 @@ body {
 @media screen and (max-width: 375px) {
   .wrapper {
     width: min-content;
-    
   }
-  .top-button{
+  .top-button {
     margin-left: 50%;
   }
   .top-button-right {
     font-size: 25px;
   }
-  .top-image{
+  .top-image {
     width: 200%;
   }
-  .top-button-right{
+  .top-button-right {
     font-size: 55px;
     margin-left: 30px;
-  }/*
+  } /*
   .hero{
     height: 600px;
     margin-top: 25%;
   }*/
-  .hero-1{
+  .hero-1 {
     font-size: 80px;
-  }/*
+  } /*
   .hero-2{
     font-weight: 600;
-  }*//*
+  }*/ /*
   .community{
     display: block;
   }*/
-  .grow{
+  .grow {
     display: block;
   }
-  .grow-text{
+  .grow-text {
     font-size: 60px;
     text-align: center;
   }
-  .flowing{
+  .flowing {
     display: block;
   }
-  .flowing-text{
+  .flowing-text {
     font-size: 60px;
     text-align: center;
   }
-  .users{
+  .users {
     display: block;
   }
-  .users-text{
+  .users-text {
     font-size: 60px;
     text-align: center;
   }
-  .hero{
+  .hero {
     height: 700px;
     margin-top: 25%;
     margin-bottom: 25%;
   }
-  .hero-2{
+  .hero-2 {
     font-size: 50px;
     padding: 50px 50px;
     font-weight: 600;
   }
-  .hero-button{
+  .hero-button {
     font-size: 60px;
     border-radius: 45px;
     padding: 15px 60px;
   }
-  .Community-image{
+  .Community-image {
     margin: 100px 250px 100px;
     width: 50%;
   }
-  .icon{
+  .icon {
     width: 20%;
     padding-right: 370px;
-  }/*
+  } /*
   .icomon{
     width: 60px;
     margin-left: 120px;
   }*/
-  .seguidores-mensajes{
-    
+  .seguidores-mensajes {
     font-size: 200px;
     font-weight: bold;
     margin: auto;
   }
-  .messages-text{
+  .messages-text {
     font-size: 55px;
     filter: opacity(0.5);
-
   }
-  .messages{
+  .messages {
     margin: 100px 250px 100px;
     width: 50%;
-    
   }
-  .community{
+  .community {
     display: block;
     margin: 100px;
   }
-  .grow{
+  .grow {
     height: 1800px;
   }
-  .grow-text{
+  .grow-text {
     position: relative;
     top: 1100px;
   }
-  .grow-image{
+  .grow-image {
     position: relative;
     bottom: 700px;
     width: 80%;
     margin: auto;
   }
-  .flowing{
-   height: 1400px;
+  .flowing {
+    height: 1400px;
   }
-  .flowing-text{
+  .flowing-text {
     position: relative;
     margin: auto;
     width: 950px;
   }
-  .flowing-image{
+  .flowing-image {
     position: relative;
     width: 80%;
     margin: auto;
   }
-  .users{
+  .users {
     height: 1800px;
   }
-  .users-text{
+  .users-text {
     position: relative;
     top: 1000px;
     margin: auto;
@@ -440,55 +436,55 @@ body {
     width: 950px;
     font-size: 56px;
   }
-  .users-image{
+  .users-image {
     position: relative;
     bottom: 1000px;
     margin: auto;
     width: 90%;
     height: 50%;
   }
-  .title-conjunto{
+  .title-conjunto {
     font-size: 70px;
   }
-  .build{
+  .build {
     padding-top: 100px;
     height: 900px;
   }
-  .build-text{
+  .build-text {
     font-size: 100px;
   }
-  .build-ancla{
+  .build-ancla {
     font-size: 60px;
     border-radius: 50px;
   }
-  .footer{
+  .footer {
     padding: 100px;
     width: initial;
     display: block;
     height: 2800px;
   }
-  .footer-left{
+  .footer-left {
     margin: auto;
     font-size: 60px;
     width: 900px;
     position: relative;
     top: 1500px;
   }
-  .footer-right{
+  .footer-right {
     bottom: 1000px;
     position: relative;
     width: 800px;
   }
-  .footer-p{
+  .footer-p {
     font-size: 90px;
   }
-  .footer-text1{
+  .footer-text1 {
     font-size: 60px;
   }
-  .input{
+  .input {
     padding: 40px 300px 40px 300px;
   }
-  .button{
+  .button {
     display: block;
     margin-top: 50px;
     font-size: 60px;
@@ -499,6 +495,4 @@ body {
 }
 
 @media screen and (max-width: 320px) {
- 
-  .
 }
