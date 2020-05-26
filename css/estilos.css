@@ -60,7 +60,7 @@ body {
 .community {
   display: flex;
   text-align: center;
-  margin: 40px 0 120px 0;
+  margin: 100px;
 }
 
 .Community-image {
@@ -73,9 +73,6 @@ body {
 
 .icon {
   margin-right: 144px;
-}
-
-.messaages-p {
 }
 
 .seguidores-mensajes {
@@ -101,11 +98,12 @@ body {
 
 .grow-text {
   width: 50%;
-  padding: 0 143px 0 143px;
+  margin: auto 140px auto;
   color: #34525a;
 }
 .grow-image {
   padding: 30px;
+  max-width: 500px;
 }
 .flowing {
   display: flex;
@@ -114,11 +112,12 @@ body {
 
 .flowing-text {
   width: 50%;
-  padding: 0 143px 0 143px;
+  margin: auto;
   color: #34525a;
 }
 .flowing-image {
   padding: 30px;
+  max-width: 500px;
 }
 
 .users {
@@ -127,12 +126,13 @@ body {
 
 .users-text {
   width: 50%;
-  padding: 0 143px 0 143px;
+  margin: auto 130px auto;
   color: #34525a;
 }
 
 .users-image {
   padding: 30px;
+  max-width: 500px;
 }
 
 .title-conjunto {
@@ -182,9 +182,6 @@ body {
 }
 .footer-image {
   padding-left: 50px;
-}
-.icon {
-  padding-left: 90px;
 }
 
 .fab {
@@ -325,20 +322,7 @@ body {
   .top-button-right {
     font-size: 55px;
     margin-left: 30px;
-  } /*
-  .hero{
-    height: 600px;
-    margin-top: 25%;
-  }*/
-  .hero-1 {
-    font-size: 80px;
-  } /*
-  .hero-2{
-    font-weight: 600;
-  }*/ /*
-  .community{
-    display: block;
-  }*/
+  }
   .grow {
     display: block;
   }
@@ -365,10 +349,17 @@ body {
     margin-top: 25%;
     margin-bottom: 25%;
   }
+  .hero-1 {
+    font-size: 80px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 0 80px 0;
+  }
   .hero-2 {
     font-size: 50px;
-    padding: 50px 50px;
-    font-weight: 600;
+    max-width: 1000px;
+    padding: initial;
+    margin: auto auto 3em auto;
   }
   .hero-button {
     font-size: 60px;
@@ -382,11 +373,8 @@ body {
   .icon {
     width: 20%;
     padding-right: 370px;
-  } /*
-  .icomon{
-    width: 60px;
-    margin-left: 120px;
-  }*/
+  }
+
   .seguidores-mensajes {
     font-size: 200px;
     font-weight: bold;
@@ -404,6 +392,9 @@ body {
     display: block;
     margin: 100px;
   }
+  .grow-section {
+    margin: 200px 0;
+  }
   .grow {
     height: 1800px;
   }
@@ -411,11 +402,15 @@ body {
     position: relative;
     top: 1100px;
   }
-  .grow-image {
+  .grow-image img {
+    display: block;
+    width: 1000px;
     position: relative;
-    bottom: 700px;
-    width: 80%;
-    margin: auto;
+    bottom: 600px;
+    margin: 0 160px 0 160px;
+  }
+  .flowing-section {
+    margin: 200px 0;
   }
   .flowing {
     height: 1400px;
@@ -425,10 +420,14 @@ body {
     margin: auto;
     width: 950px;
   }
-  .flowing-image {
+  .flowing-image img {
+    display: block;
+    width: 1200px;
     position: relative;
-    width: 80%;
     margin: auto;
+  }
+  .users-section {
+    margin: 200px 0;
   }
   .users {
     height: 1800px;
@@ -441,12 +440,12 @@ body {
     width: 950px;
     font-size: 56px;
   }
-  .users-image {
+  .users-image img {
+    display: block;
+    width: 1200px;
     position: relative;
-    bottom: 1000px;
-    margin: auto;
-    width: 90%;
-    height: 50%;
+    bottom: 850px;
+    margin: 0 80px;
   }
   .title-conjunto {
     font-size: 70px;
@@ -461,6 +460,7 @@ body {
   .build-ancla {
     font-size: 60px;
     border-radius: 50px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
   }
   .footer {
     padding: 100px;
@@ -496,6 +496,7 @@ body {
     border-radius: 40px;
     padding: 30px 150px 30px 150px;
     margin-left: 215px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
   }
 }
 
